@@ -14,11 +14,13 @@ var session = require('express-session');
 
 
 
+// commit
+
 var config = {
 
-    user: 'shishir369824',
+    user: 'coco98',
 
-    database: 'shishir369824',
+    database: 'coco98',
 
     host: 'db.imad.hasura-app.io',
 
