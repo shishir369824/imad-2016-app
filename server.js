@@ -146,6 +146,30 @@ app.get('/1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '1.html'));
 
 });
+app.get('/2', function (req, res) {
+
+  res.sendFile(path.join(__dirname, 'ui', '2.html'));
+
+});
+app.get('/3', function (req, res) {
+
+  res.sendFile(path.join(__dirname, 'ui', '3.html'));
+
+});
+app.get('/4', function (req, res) {
+
+  res.sendFile(path.join(__dirname, 'ui', '4.html'));
+
+});
+app.get('/5', function (req, res) {
+
+  res.sendFile(path.join(__dirname, 'ui', '5.html'));
+
+});
+
+
+
+
 
 
 
