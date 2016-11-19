@@ -146,17 +146,17 @@ app.get('/ui/1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '1.html'));
 
 });
-app.get('/2', function (req, res) {
+app.get('/ui/2.html', function (req, res) {
 
   res.sendFile(path.join(__dirname, 'ui', '2.html'));
 
 });
-app.get('/3', function (req, res) {
+app.get('/ui/3.html', function (req, res) {
 
   res.sendFile(path.join(__dirname, 'ui', '3.html'));
 
 });
-app.get('/4', function (req, res) {
+app.get('/ui/4.html', function (req, res) {
 
   res.sendFile(path.join(__dirname, 'ui', '4.html'));
 
