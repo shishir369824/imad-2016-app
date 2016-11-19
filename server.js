@@ -141,34 +141,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 
 });
-app.get('/ui/1.html', function (req, res) {
 
-  res.sendFile(path.join(__dirname, 'ui', '1.html'));
 
-});
-app.get('/ui/2.html', function (req, res) {
 
-  res.sendFile(path.join(__dirname, 'ui', '2.html'));
 
-});
-app.get('/ui/3.html', function (req, res) {
 
-  res.sendFile(path.join(__dirname, 'ui', '3.html'));
-
-});
-app.get('/ui/4.html', function (req, res) {
-
-  res.sendFile(path.join(__dirname, 'ui', '4.html'));
-
-});
-app.get('/ui/5.html', function (req, res) {
-
-  res.sendFile(path.join(__dirname, 'ui', '5.html'));
-
-});
-app.get('/ui/style.css', function (req,res) {
-    res.sendFile(path.join(_dirname, 'ui , 'style.css'));
-});
 function hash (input, salt) {
 
     // How do we create a hash?
